@@ -1,0 +1,7 @@
+wait()
+getgenv().toggle = false
+while getgenv().toggle do
+local Event = game:GetService("ReplicatedStorage").Events.Tap
+Event:FireServer()
+wait(0.1)
+end
